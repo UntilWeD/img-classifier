@@ -6,3 +6,7 @@
   functions = "functions/"
 [dev]
   publish = "public"
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
